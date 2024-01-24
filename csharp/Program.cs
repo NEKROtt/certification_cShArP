@@ -36,3 +36,16 @@ string [] symbol(string [] stringArray)
   } 
   return rez; 
 } 
+
+void printA(string [] stringArray) 
+{ 
+    Write("["); 
+    for (int i = 0;i<stringArray.Length;i++) 
+    { 
+    Write($"{stringArray[i]}, "); 
+    } 
+    Write("]"); 
+} 
+array(stringArray); 
+printA(symbol(stringArray)); 
+WriteLine();
